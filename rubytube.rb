@@ -13,7 +13,7 @@ class RubyApp < Gtk::Window
 
         fixed = Gtk::Fixed.new
 
-        image = Gtk::Image.new(".b.png")
+        image = Gtk::Image.new("b.png")
         fixed.put image, 50, 20
 
         label_link = Gtk::Label.new "Link del video:"
